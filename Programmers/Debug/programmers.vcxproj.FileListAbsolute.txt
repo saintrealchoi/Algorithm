@@ -1,0 +1,2 @@
+C:\Users\LG\source\repos\programmers\Debug\programmers.exe
+C:\Users\LG\source\repos\programmers\Debug\programmers.pdb
