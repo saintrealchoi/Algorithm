@@ -1,12 +1,12 @@
 # Algorithm
-*==JAVA==*, C++
+**JAVA**, C++
 - - -
 
 ## Judge Site 목록
 
 1. 백준
 2. programmers
-3. ==leetcode==
+3. **leetcode**
 4. hackkerrank
 5. ~~Algospot~~
 
