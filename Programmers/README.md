@@ -49,3 +49,4 @@
 - - -
 ## Level 2 목록
 - [ ] 1. 큰수만들기 (makeBigNum)
+- [ ] 2. 멀쩡한 사각형 (rightSquare)
