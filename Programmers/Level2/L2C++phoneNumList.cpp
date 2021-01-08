@@ -1,19 +1,17 @@
 #include <string>
 #include <vector>
-#include <iostream>
-
+#include <algorithm>
 using namespace std;
 
-vector<int> solution(string s) {
-    vector<int> answer;
-    return answer;
-}
+bool solution(vector<string> phone_book) {
+    bool answer = true;
 
-int main() {
-    string s = "{{}{4}{}3{}2{}1}";
-    int size = s.size();
-    for (int i = 0; i < size; i++) {
-        s.erase(s.find('{'), 1);
+    sort(phone_book.begin(), phone_book.end());
+
+    for (int i = 0; i < phone_book.size()-1; i++) {
+        if (phone_book[i] == phone_book[i + 1].substr(0, phone_book[i].size()))
+            answer = false;
     }
-    cout << s;
+
+    return answer;
 }
